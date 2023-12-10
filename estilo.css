@@ -1,0 +1,257 @@
+@font-face {
+        font-family: "manrope";
+        src: url("FUENTE/Manrope.ttf") format("truetype");
+      }
+
+    
+
+.headerprin{
+    background: rgb(243, 87, 60);
+    position: fixed;
+    width: 100%;
+    height: 130px;
+    top: 0%;
+    left: 0%;
+    justify-content: center;
+    color: aliceblue;
+
+
+}
+.headerdiv{
+    display: flex;  
+    text-align: center;
+    justify-content: center;
+}
+.header{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 0px 20px 0px 20px;
+    margin-top: 5px;
+    font-family: manrope;
+}
+.parheader{
+    margin-top: 0px ;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -2px;
+}
+#ubicacion{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0px ;
+    padding-top: 0%;
+
+
+}
+#ubicontent{
+    display: flex;
+   
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+    background-color: rgb(238, 171, 48);
+    height: 40px;
+    width: 260px;
+    border-radius: 20px;
+    margin-right: 43%;
+    margin-top: 20px;
+    
+}
+#textubi{
+    
+    margin: auto;
+    padding: 0px 10px 0px 10px;
+}
+#imgubicacion{
+    margin: auto;
+    padding-left: 10px;
+}
+.triangulo{
+    border-top: 10px solid rgb(255, 255, 255);
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    margin: auto;
+    margin-right: 10px;
+}
+.slider{
+    width: 1280px;
+    overflow: hidden;
+    margin: 100px auto 50px;
+    height: auto;
+    
+}
+
+.slider ul{
+    padding: 0;
+    width: 400%;
+    display: flex;
+    animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+    height: 700px;
+}
+@keyframes slide {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+#menu2 li{
+    list-style-type: none;
+    
+}
+#menu2 a{
+    text-decoration: none;
+    background-color: rgb(247, 145, 105);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    margin: 50px;
+    border-radius: 30px;
+    border-color: rgb(236, 119, 10);
+    border-style: groove;
+    display: flex;
+    flex-direction:column;
+    color: rgb(250, 250, 250);
+}
+#menu2 ul{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+#menu2 a:hover{
+    background-color: rgb(30, 255, 0);
+}
+#menu2 a:active{
+    background-color: rgb(241, 97, 97);
+    color:black;
+}
+
+.imgcua{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.imgcua2{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.contactos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;   
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: manrope;
+}
+h4{
+    color: rgb(247, 67, 12);
+}
+.img-formas-pago{
+    width: 80px;
+    height: 80px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.img-redes-sociales{
+    width: 60px;
+    height: 60px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.img-logo{
+    width: 400px;
+    height:200px;
+    
+
+}
+.img-logo1{
+    width: 100px;
+    height:100px;
+    margin-right: auto ;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    position: flex;
+}
+.endprind{
+    background: rgb(243, 87, 60);
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    bottom: 0%;
+    left: 0%;
+    padding-top: 0px;
+    font-family: manrope;
+
+}
+.enddiv{
+    display:  flex;  
+    
+}
+.end{
+    justify-content: center;
+    align-items: center;
+margin-right: 43%;
+    margin-top: 25px;
+}
+.delivery2{
+    margin-right: auto;
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+    padding-bottom: 0%; 
+    color: aliceblue; 
+}
+#compra-aqui li{
+    list-style-type: none;
+    
+}
+#compra-aqui a{
+    text-decoration: none;
+    background-color: rgb(245, 247, 105);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+
+    border-radius: 30px;
+    border-color: rgb(235, 150, 71);
+    border-style: groove;
+    display: flex;
+    flex-direction:column;
+    color: rgb(247, 67, 12);
+}
+#compra-aqui ul{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+#compra-aqui a:hover{
+    background-color: rgb(255, 0, 0);
+}
+#compra-aqui a:active{
+    background-color: rgb(147, 97, 241);
+    color:black;
+}
